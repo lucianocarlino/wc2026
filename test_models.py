@@ -6,10 +6,10 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-home_model = load_model("models/home_modelV2.keras")
-away_model = load_model("models/away_modelV2.keras")
+home_model = load_model("models/home_modelV3.keras")
+away_model = load_model("models/away_modelV3.keras")
 
-preprocess = joblib.load("models/preprocessV2.pkl")
+preprocess = joblib.load("models/preprocessV3.pkl")
 
 match = pd.DataFrame([{
     "home_team": "Wales",
