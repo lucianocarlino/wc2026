@@ -6,3 +6,5 @@ joblib
 scipy
 seaborn
 matplotlib
+tensorboard
+openpyxl
